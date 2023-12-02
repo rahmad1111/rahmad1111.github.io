@@ -3,7 +3,7 @@
     --main-text-color: #888888;
 }
 
-[data-theme="light"] {
+[data-theme="dark"] {
     --main-bg-color: #1e1f26;
     --main-text-color: #ccc;
 }
