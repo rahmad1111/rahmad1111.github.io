@@ -37,7 +37,7 @@ const switchTheme = (evt) => {
 const switchModeBtn = document.querySelector(".switch-btn");
 switchModeBtn.addEventListener("click", switchTheme, false);
 
-let currentTheme = "light";
+let currentTheme = "dark";
 // currentTheme = localStorage.getItem("theme")
 // 	? localStorage.getItem("theme")
 // 	: null;
