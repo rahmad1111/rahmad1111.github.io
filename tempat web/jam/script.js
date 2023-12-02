@@ -23,7 +23,7 @@ setInterval(setClock, 1000);
 
 const switchTheme = (evt) => {
     const switchBtn = evt.target;
-    if (switchBtn.textContent.toLowerCase() === "light") {
+    if (switchBtn.textContent.toLowerCase() === "dark") {
         switchBtn.textContent = "light";
         // localStorage.setItem("theme", "light"); //add this
         document.documentElement.setAttribute("data-theme", "light");
