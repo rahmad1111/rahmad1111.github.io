@@ -23,20 +23,6 @@ setInterval(setClock, 1000);
 
 const switchTheme = (evt) => {
     const switchBtn = evt.target;
-    if (switchBtn.textContent.toLowerCase() === "dark") {
-        switchBtn.textContent = "light";
-        // localStorage.setItem("theme", "light"); //add this
-        document.documentElement.setAttribute("data-theme", "light");
-    } else {
-        switchBtn.textContent = "dark";
-        // localStorage.setItem("theme", "dark");
-        document.documentElement.setAttribute("data-theme", "dark");
-    }
-};
-
-/*
-const switchTheme = (evt) => {
-    const switchBtn = evt.target;
     if (switchBtn.textContent.toLowerCase() === "light") {
         switchBtn.textContent = "dark";
         // localStorage.setItem("theme", "dark");
@@ -47,7 +33,6 @@ const switchTheme = (evt) => {
         document.documentElement.setAttribute("data-theme", "light");
     }
 };
-*/
 
 const switchModeBtn = document.querySelector(".switch-btn");
 switchModeBtn.addEventListener("click", switchTheme, false);
