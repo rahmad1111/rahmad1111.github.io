@@ -1,0 +1,10 @@
+{
+    "status" : "success",
+    "data" : [
+        {
+            "matakuliah" : "MRSI",
+            "nama_tugas" : "Contoh",
+            "tanggal_buat" : "11 agustus 2023"
+        }
+    ]
+}
